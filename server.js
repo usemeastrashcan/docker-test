@@ -4,7 +4,7 @@ const app = express()
 
 app.get(('/'), (req, res)=>
     {   
-        res.send("Inside The App.")
+        res.send("Inside The App. Docker File is set. CI set")
     })  
 
 app.listen(3000, ()=>
